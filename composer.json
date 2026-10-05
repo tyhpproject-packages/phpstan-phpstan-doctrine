@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/phpstan-phpstan-doctrine",
+    "description": "Tyhp type definitions for phpstan/phpstan-doctrine 2.0.28.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.0.28",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/phpstan-phpstan-doctrine-impl": "~2.0.28.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/phpstan-phpstan-doctrine-impl"
+        }
+    }
+}
